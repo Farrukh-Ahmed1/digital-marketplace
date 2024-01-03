@@ -4,8 +4,8 @@ import { z } from 'zod'
 import { getPayloadClient } from '../get-payload'
 import { stripe } from '../lib/stripe'
 import {
-    privateProcedure,
-    router
+  privateProcedure,
+  router
 } from './trpc'
 
 export const paymentRouter = router({
@@ -54,7 +54,7 @@ export const paymentRouter = router({
       })
 
       line_items.push({
-        price: 'price_1OCeBwA19umTXGu8s4p2G3aX',
+        price: 'price_1OUStHJursj53dxxvf5EE9VZ',
         quantity: 1,
         adjustable_quantity: {
           enabled: false,
