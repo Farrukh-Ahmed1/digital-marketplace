@@ -10,7 +10,9 @@ import {
     Section,
     Text,
     render,
-} from '@react-email/components'
+} from '@react-email/components';
+
+import * as React from "react";
   
     
   interface EmailTemplateProps {
